@@ -1,4 +1,4 @@
-# 🏋️‍♂️ Personalised Fitness Plan Generator (Fine-Tuned LLM)
+# Personalised Fitness Plan Generator (Fine-Tuned LLM)
 
 This project builds a simple web application that generates a **7-day personalised fitness and lifestyle plan** based on a user’s profile.  
 It is powered by **fine-tuned open-source Large Language Models (LLMs)** and runs on **CPU-only inference** inside a Hugging Face Space.
@@ -11,7 +11,7 @@ The goal of this project is to:
 
 ---
 
-## ✨ Features
+## Features
 
 The app takes information from the user, including:
 
@@ -35,7 +35,7 @@ Then it generates a **simple plan**, including:
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 We fine-tuned **two different models**:
 
@@ -54,7 +54,7 @@ We then **merged** the weights to create a full 16-bit model suitable for CPU in
 
 ---
 
-## 🛠️ Training Setup (Short Summary)
+## Training Setup (Short Summary)
 
 We used a **parameter-efficient fine-tuning approach** so we can train large models with limited hardware.
 
@@ -69,7 +69,7 @@ We used an **instruction dataset** that helps the model follow tasks and output 
 
 ---
 
-## ⚙️ Model-Centric Improvements
+## Model-Centric Improvements
 
 We explored ways to improve model performance by changing the **model configuration**:
 
@@ -82,7 +82,7 @@ These changes helped us explore differences in **quality, speed, and usability**
 
 ---
 
-## 📚 Data-Centric Improvements
+## Data-Centric Improvements
 
 We identified ways to improve results using better data:
 
@@ -99,11 +99,11 @@ This was not fully implemented due to time but is a good future step.
 
 ---
 
-## 🧪 Evaluation of Models
+## Evaluation of Models
 
 We tested both models with the same user profile.
 
-### ✔️ 3B Model – Results
+### 3B Model – Results
 
 **Strengths**
 - Clear weekly structure (training vs rest days)  
@@ -121,7 +121,7 @@ Better structure and coaching tone, but **unsafe and slow**.
 
 ---
 
-### ✔️ 1B Model – Results
+### 1B Model – Results
 
 **Strengths**
 - Faster, more responsive output  
@@ -139,7 +139,7 @@ Much faster and usable, but **lower quality and less organized**.
 
 ---
 
-## ⏱️ Speed on CPU
+## Speed on CPU
 
 We deployed both models on **CPU-only hosting**.
 
@@ -157,7 +157,7 @@ For CPU-only deployment, **smaller models give a better user experience**, even 
 
 ---
 
-## 📊 Summary Comparison Table
+## Summary Comparison Table
 
 | Metric | 3B Model | 1B Model |
 |---|---|---|
@@ -172,7 +172,7 @@ For CPU-only deployment, **smaller models give a better user experience**, even 
 
 ---
 
-## 🧾 Overall Conclusion
+## Overall Conclusion
 
 There is **no single best model**.
 
@@ -185,7 +185,7 @@ For **best plan quality**, a larger model or more domain-specific data would hel
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Simple ideas for future work:
 
@@ -199,7 +199,7 @@ These steps could make the system **safer, smarter, and more useful**.
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - Python  
 - Hugging Face Transformers  
@@ -210,7 +210,7 @@ These steps could make the system **safer, smarter, and more useful**.
 
 ---
 
-## 🌐 User Interface
+## User Interface
 
 We built a **simple web UI** using Gradio, where users:
 
@@ -226,7 +226,7 @@ The UI is designed to be:
 
 ---
 
-## 🔒 Safety Notice
+## Safety Notice
 
 This app is for **educational purposes only**.  
 It does **not provide medical advice**.  
@@ -234,7 +234,7 @@ Users should **consult a healthcare professional** before starting new exercise 
 
 ---
 
-## ✔️ Final Thoughts
+## Final Thoughts
 
 This project shows how small open-source LLMs can be:
 
