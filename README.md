@@ -1,5 +1,7 @@
 # Personalised Fitness Plan Generator (Fine-Tuned LLM)
 
+URL for the UI for the fine-tuned LLM: https://huggingface.co/spaces/lakshmisrinidh/iris
+
 This project builds a simple web application that generates a **7-day personalised fitness and lifestyle plan** based on a user’s profile.  
 It is powered by **fine-tuned open-source Large Language Models (LLMs)** and runs on **CPU-only inference** inside a Hugging Face Space.
 
@@ -224,13 +226,6 @@ The UI is designed to be:
 - Easy to use  
 - CPU-friendly  
 
----
-
-## Safety Notice
-
-This app is for **educational purposes only**.  
-It does **not provide medical advice**.  
-Users should **consult a healthcare professional** before starting new exercise or diet programs.
 
 ---
 
