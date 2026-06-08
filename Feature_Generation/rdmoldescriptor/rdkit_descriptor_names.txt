@@ -1,0 +1,9 @@
+0
+ExactMolWt
+NumRings
+NumAromaticRings
+NumAliphaticRings
+NumHBD
+NumHBA
+TPSA
+NumRotatableBonds
